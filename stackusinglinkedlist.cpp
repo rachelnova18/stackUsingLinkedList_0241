@@ -15,3 +15,7 @@ public:         // akses modifier
 };
 
 class Stack // membuat class stack
+{
+private:       // akses modifier
+    Node *top; // pointer ke node teratas
+
