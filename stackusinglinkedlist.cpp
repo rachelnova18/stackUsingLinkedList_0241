@@ -51,4 +51,5 @@ public:     // akses modifier
         {
             cout << "List is Empty. " << endl; // menampilkan pesan
         }
-        
+        else // jika stack tidak kosong
+      
