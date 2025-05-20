@@ -64,4 +64,8 @@ public:     // akses modifier
     }
 
     bool isEmpty() // fungsi untuk mengecek apakah stack kosong
-   
+    {
+        return top == NULL; // mengembalikan true jika stack kosong
+    }
+};
+
