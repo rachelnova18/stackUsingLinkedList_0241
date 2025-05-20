@@ -55,4 +55,12 @@ public:     // akses modifier
         {
             Node *current = top;    // pointer ke node teratas
             while (current != NULL) // selama current tidak NULL
-           
+            {
+                cout << current->data << " " << endl; // menampilkan data
+                current = current->next;              // pindah ke node berikutnya
+            }
+            cout << endl;
+        }
+    }
+
+    
