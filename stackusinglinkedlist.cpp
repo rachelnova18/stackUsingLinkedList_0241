@@ -8,4 +8,9 @@ public:         // akses modifier
     Node *next; // pointer ke node berikutnya
     // constructor
 
-    
+    Node() // node constructor
+    {
+        next = NULL; // inisialisasi next dengan NULL
+    }
+};
+
