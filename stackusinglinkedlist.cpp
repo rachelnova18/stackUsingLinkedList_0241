@@ -46,4 +46,9 @@ public:     // akses modifier
     }
 
     void peek() // fungsi untuk menampilkan data teratas
-   
+    {
+        if (top == NULL) //jika stack kosong 
+        {
+            cout << "List is Empty. " << endl; // menampilkan pesan
+        }
+        
