@@ -52,4 +52,7 @@ public:     // akses modifier
             cout << "List is Empty. " << endl; // menampilkan pesan
         }
         else // jika stack tidak kosong
-      
+        {
+            Node *current = top;    // pointer ke node teratas
+            while (current != NULL) // selama current tidak NULL
+           
