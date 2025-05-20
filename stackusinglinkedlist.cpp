@@ -29,4 +29,9 @@ public:     // akses modifier
         Node *newNode = new Node(); // membuat node baru
         newNode->data = value;      // menyimpan data ke node baru
         newNode->next = top;
-        
+        top = newNode; // node baru menjadi top
+        cout << "push value: " << value << endl;
+        return value;
+    }
+
+    
