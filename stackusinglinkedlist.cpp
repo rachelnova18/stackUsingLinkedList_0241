@@ -27,4 +27,6 @@ public:     // akses modifier
     int push(int value) // fungsi untuk menambahkan data ke stack
     {
         Node *newNode = new Node(); // membuat node baru
+        newNode->data = value;      // menyimpan data ke node baru
+        newNode->next = top;
         
