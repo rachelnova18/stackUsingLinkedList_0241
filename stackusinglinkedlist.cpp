@@ -14,3 +14,4 @@ public:         // akses modifier
     }
 };
 
+class Stack // membuat class stack
