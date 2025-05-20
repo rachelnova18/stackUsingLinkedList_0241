@@ -19,3 +19,9 @@ class Stack // membuat class stack
 private:       // akses modifier
     Node *top; // pointer ke node teratas
 
+public:     // akses modifier
+    Stack() // constructor stack
+    {
+        top = NULL; // inisialisasi top dengan NULL
+    }
+    
