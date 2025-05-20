@@ -34,4 +34,5 @@ public:     // akses modifier
         return value;
     }
 
-    
+    void pop() //fungsi untuk menghapus data dari stack
+   
