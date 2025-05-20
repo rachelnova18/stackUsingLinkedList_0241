@@ -45,4 +45,5 @@ public:     // akses modifier
         top = top->next; // node berikutnya menjadi top
     }
 
-    
+    void peek() // fungsi untuk menampilkan data teratas
+   
