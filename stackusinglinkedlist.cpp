@@ -24,4 +24,5 @@ public:     // akses modifier
     {
         top = NULL; // inisialisasi top dengan NULL
     }
+    int push(int value) // fungsi untuk menambahkan data ke stack
     
