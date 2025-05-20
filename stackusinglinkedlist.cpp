@@ -35,4 +35,14 @@ public:     // akses modifier
     }
 
     void pop() //fungsi untuk menghapus data dari stack
-   
+    {
+        if (isEmpty())
+        {
+            cout << "Stack is empty" << endl;
+        }
+
+        cout << "popped value: " << top->data << endl; // menampilkan data yang dihapus
+        top = top->next; // node berikutnya menjadi top
+    }
+
+    
